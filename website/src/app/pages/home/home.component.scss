@@ -4,5 +4,38 @@
 
 .banner{
   background-image: url('../../../assets/image/bmwestic.png');
-  height: 755px;
+  height: 733px;
+}
+
+.text{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  background-color: white;
+  opacity : 0.3;
+  color: black;
+  font-size: 50px;
+}
+
+/*--------------------------------------------------------------
+# Screen
+--------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .banner {
+    background-image:url('../../../assets/image/bmwesticmobilie.png');
+    height: 465.5px !important;
+    width: 100%;
+    float: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .banner {
+    background-image:url('../../../assets/image/bmwestictablet.png');
+    height: 100% !important;
+    width: 100% !important;
+    float: none !important;
+  }
 }

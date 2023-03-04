@@ -1,0 +1,104 @@
+.textform{
+  margin-top: 60px;
+}
+
+.row{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.btnform{
+  margin-top: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: rgb(134, 252, 134);
+  border-color: black;
+  margin-left: 45%;
+  color: black;
+  font-weight: bold;
+}
+
+.text-titulo{
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 0 0.2em rgb(134, 252, 134), 0 0 0.2em rgb(134, 252, 134);
+  font-size: 50px;
+}
+
+.imgwhats{
+  height: 35px;
+}
+
+h3{
+  margin-top: 60px;
+  text-align: center;
+  color: black;
+}
+
+.textwhats{
+  text-decoration: none;
+}
+
+h3:hover{
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# Screen
+--------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .row {
+    height: 100% !important;
+    float: none !important;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .btnform{
+    height: 100% !important;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .textform{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .row {
+    height: 100% !important;
+    float: none !important;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .btnform{
+    height: 100% !important;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 26.3%;
+  }
+  .textform{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .row {
+    height: 100% !important;
+    float: none !important;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .btnform{
+    height: 100% !important;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 26.3%;
+  }
+  .textform{
+    margin-top: 15px;
+  }
+}

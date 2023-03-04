@@ -11,3 +11,41 @@
   box-shadow: 2px 2px 2px 3px gray;;
 }
 
+.text-titulo {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 0 0.2em rgb(134, 252, 134), 0 0 0.2em rgb(134, 252, 134);
+  font-size: 50px;
+}
+
+/*--------------------------------------------------------------
+# Screen
+--------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .mapa {
+    height: 250px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .mapa {
+    height: 300px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .mapa {
+    height: 400px !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1440px) {
+  .mapa {
+    height: 450px !important;
+    width: 100% !important;
+  }
+}

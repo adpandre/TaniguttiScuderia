@@ -8,4 +8,44 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'stopregular';
+  src: url(../../../assets/fonts/stopregular.otf);
+}
+
+h1{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'stopregular';
+}
+
+p{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: -150px;
+}
+
+/*--------------------------------------------------------------
+# Screen
+--------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .segmarca {
+    margin-left: -230px !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .segmarca {
+    margin-left: -280px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .segmarca {
+    margin-left: -165px !important;
+  }
+}
 

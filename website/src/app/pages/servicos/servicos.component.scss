@@ -1,0 +1,139 @@
+.text-titulo {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 0 0.2em rgb(134, 252, 134), 0 0 0.2em rgb(134, 252, 134);
+  font-size: 50px;
+}
+
+.btn-servicos {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: 25px;
+}
+
+.btn-servicos:focus {
+  outline: none !important;
+  outline: none !important;
+}
+
+.btn_serv {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 205px;
+  line-height: 80px;
+  color: #000000;
+  font-family: Verdana;
+  width: 230px;
+  font-weight: 120;
+  background-color: rgb(134, 252, 134);
+  border-color: black;
+  -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 2px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.servtext{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgservicos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h3
+{
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn_contato{
+  background-color: rgb(134, 252, 134);
+  border-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 150px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.text_contato{
+  color: black;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Screen
+--------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .btn-servicos,
+  aside {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 30px;
+  }
+
+  .btn_contato{
+    margin-bottom: 20px;
+  }
+
+  .text-titulo{
+    margin-bottom: -20px;
+  }
+
+  h3{
+    margin-top: -50px;
+  }
+
+  .textservicos{
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .btn-servicos,
+  aside {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 30px;
+  }
+
+  .btn_contato{
+    margin-bottom: 20px;
+  }
+
+  .text-titulo{
+    margin-bottom: -20px;
+  }
+
+  h3{
+    margin-top: -50px;
+  }
+
+  .textservicos{
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .btn_contato{
+    margin-bottom: 20px;
+  }
+}
